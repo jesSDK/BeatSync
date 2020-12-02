@@ -48,8 +48,7 @@ namespace BeatSync
 
         private void BSEvents_noteWasCut(NoteData arg1, NoteCutInfo arg2, int arg3)
         {
-                if (ws.IsAlive)
-                {
+
                 var hex = new byte[] { 0 };
                 TimeSpan ts = stopwatch.Elapsed;
                 stopwatch.Reset();
@@ -89,7 +88,6 @@ namespace BeatSync
                     }
                 }
                 stopwatch.Start();
-            }
             
         }
 
