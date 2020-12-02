@@ -1,0 +1,9 @@
+<vertical child-control-height='false'>
+  <horizontal bg='panel-top' pad-left='10' pad-right='10' horizontal-fit='PreferredSize'>
+    <text text='BeatSync' id='title' align='Center' font-size='10'></text>
+  </horizontal>
+  <button on-click='press' text='Test Button'></button>
+  <settings-container>
+       <checkbox-setting text='Enable Double Note Single Colour' value='change'></checkbox-setting>
+  </settings-container>
+</vertical>
